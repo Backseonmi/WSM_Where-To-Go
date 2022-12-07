@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> <!--  https://backseonmi.github.io/WSM_2304/20220608_school%20cafeteria/ == 웹사이트로 바로 가는 링크  -->
+<head> <!--  https://backseonmi.github.io/WSM_WHERE TO GO/== 웹사이트로 바로 가는 링크  -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
-    <!-- Boxicons -->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Where To Go</title>
     <!-- style.css -->
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/nav.css">
@@ -25,49 +23,72 @@
             <div class="nav-menu">
                 <ul class="nav-list" id="nav-list">
                     <li class="nav-item">
-                        <a href="search.html" class="nav-link">SEARCH</a>
+                        <a href="search.html" class="nav-link">
+                            <img id='search' src="img/search.png">
+                        </a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <div id='left'>
-		<div class='best-menu'>
-			<h1 id='best-menu-h1'>가장 유명한 명소</h1>
+    <main>
+        <div id='left'>
+            <div class='best-place'>
+                <h1 id='best-place-h1'>가장 유명한 명소</h1>
+                
+                <div class='gallery' id='best-place'>
+                    <div id='best-Itawon' onclick="location.href='details-Itawon.html'">
+                        <img id='best-Itawon-img' src="img/Itawon.png">
+                        <p>이태원</p>
+                    </div>
+                    <div id='best-Place' onclick="location.href='details-Place.html'">
+                        <img id='best-Place-img' src="img/palace.png">
+                        <p>경복궁</p>
+                    </div>
+                    <div id='best-River' onclick="location.href='details-River.html'">
+                        <img id='best-River-img' src="img/river.png">
+                        <p>한강</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-			<div class='gallery' id='best-menu'>
-					<img id='best-Egg-Mayo-img' src="img/palace.png">
-					<p>경복궁</p>
-					<img id='best-Italian-BMT-img' src="img/river.png">
-					<p>한강</p>
-					<img id='best-Steak-Cheese-img' src="img/lotte.png">
-					<p>롯데타워</p>
-			</div>
-		</div>
-	</div>
+        <div id='right'>
+            <div class='place'>
+                <h1 id='place-h1'>명소</h1>
 
-	<div id='right'>
-		<div class='menu'>
-			<h1 id='menu-h1'>명소</h1>
-
-			<div id='menu'>
-					<img id='best-Steak-Cheese-img' src="img/Itawon.png">
-						<div id='menu-name'>이태원</div>
-                        
-					<img id='best-Steak-Cheese-img' src="img/hong.png">
-						<div id='menu-name'>홍대</div>
-
-					<img id='best-Steak-Cheese-img' src="img/cafe.png">
-						<div id='menu-name'>카페</div>
-
-					<img id='best-Steak-Cheese-img' src="img/board.png">
-						<div id='menu-name'>보드카페</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
+                <div id='place'>
+                    <div class="box whole classic" id='place-Board' onclick="location.href='details-Board.html'">
+                        <img id='place-Board-img' src="img/board.png">
+                        <p>보드카페</p>
+                    </div>
+                    <div class="box whole classic" id='place-Cafe' onclick="location.href='details-Cafe.html'">
+                        <img id='place-Cafe-img' src="img/cafe.png">
+                        <p>카페</p>
+                    </div>
+                    <div class="box whole classic" id='place-Hong' onclick="location.href='details-Hong.html'">
+                        <img id='place-Hong-img' src="img/hong.png">
+                        <p>홍대</p>
+                    </div>
+                    <div class="box whole classic" id='place-Itawon' onclick="location.href='details-Itawon.html'">
+                        <img id='place-Itawon-img' src="img/Itawon.png">
+                        <p>이태원</p>
+                    </div>
+                    <div class="box whole classic" id='place-Lotte' onclick="location.href='details-Lotte.html'">
+                        <img id='place-Lotte-img' src="img/lotte.png">
+                        <p>롯데타워</p>
+                    </div>
+                    <div class="box whole classic" id='place-Palace' onclick="location.href='details-Palace.html'">
+                        <img id='place-Palace-img' src="img/palace.png">
+                        <p>경복궁</p>
+                    </div>
+                    
+                </div>
+            </div>
+	    </div>
+        
+    </main>
 
     <!-- main.js -->
     <script src="js/nav.js"></script>
