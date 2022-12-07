@@ -9,6 +9,14 @@
 font-family: 'MinSans-Regular';
 }
 
+.header{
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+}
+
 #left {
 position: fixed;
 width: 50%;

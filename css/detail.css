@@ -14,6 +14,14 @@
   display: none;
 }
 
+.header{
+	position: fixed;
+	top: 0;
+	/* width: 100% */
+	left: 0;
+	right: 0;
+}
+
 #left {
 	width: 50%;
 	height: auto;
@@ -28,7 +36,7 @@
 }
 
 #place-img {
-	margin-top: 10px;
+	margin-top: 60px;
 	text-align: center;
 }
 
@@ -95,7 +103,8 @@
 
 #map{
 	margin-top: 30px;
-	margin-left: 10%;
+	margin-left: 30%;
+	margin-bottom: 20%;
 }
 
 
