@@ -69,9 +69,28 @@
 	color: black;
 } */
 
-.item{
+
+.grid-container{
+	margin-left: 8%;
 	display: grid;
-	grid-template-columns: repeat(1, 30%);
+	grid-template-columns: repeat(2, 40%);
+	margin-top: 4rem;
+}
+
+.item1{
+	display: grid;
+	grid-row-gap: 3rem;
+	grid-template-columns: repeat(1, 20rem);
+
+
+}
+
+.item2{
+	display: grid;
+	grid-row-gap: 3rem;
+	grid-template-columns: repeat(1, 20rem);
+	font-weight: 600;
+	color: black;
 }
 
 
