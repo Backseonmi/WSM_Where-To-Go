@@ -9,5 +9,4 @@
 
 ## 실행방법
 
-1. [GitHub Page](http://github.com)
-1. 소스코드 > main.html > Go Live
+1. 링크 접속 -> https://backseonmi.github.io/WSM_Where-To-Go/
