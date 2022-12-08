@@ -9,4 +9,4 @@
 
 ## 실행방법
 
-1. 링크 접속 -> https://backseonmi.github.io/WSM_Where-To-Go/
+- 링크 접속 -> https://backseonmi.github.io/WSM_Where-To-Go/
