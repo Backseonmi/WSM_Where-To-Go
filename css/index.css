@@ -27,7 +27,6 @@ display: inline-block;
 #right {
 width: 50%;
 height: auto;
-display: inline-block;
 float: right;
 }
 
